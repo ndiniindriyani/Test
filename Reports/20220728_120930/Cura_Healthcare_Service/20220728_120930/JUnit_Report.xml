@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Cura_Healthcare_Service" time="17.48" tests="3" failures="0" errors="0">
+   <testsuite name="Cura_Healthcare_Service" tests="3" failures="0" errors="0" time="17.48" skipped="0" timestamp="2022-07-28 12:09:32" hostname="AVOWS - DESKTOP-TEHDA6E" id="Test Suites/Cura_Healthcare_Service">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\AVOWS\\git\\Test\\Reports\\20220728_120930\\Cura_Healthcare_Service\\20220728_120930"/>
+         <property name="logFiles" value="C:\\Users\\AVOWS\\git\\Test\\Reports\\20220728_120930\\Cura_Healthcare_Service\\20220728_120930\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\AVOWS\\git\\Test\\Reports\\20220728_120930\\Cura_Healthcare_Service\\20220728_120930\\1658984987805.png"/>
+         <property name="hostName" value="AVOWS - DESKTOP-TEHDA6E"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.3.5.208"/>
+         <property name="browser" value="Chrome 103.0.5060.134"/>
+         <property name="hostAddress" value="192.104.104.136"/>
+         <property name="sessionId" value="2947969742f30d4a810e25ba06d1d046"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/TC_Login" time="9.635" classname="Test Cases/TC_Login" status="PASSED">
+         <system-out><![CDATA[2022-07-28 12:09:32 - [TEST_CASE][PASSED] - Test Cases/TC_Login: Test Cases/TC_Login
+
+2022-07-28 12:09:33 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-07-28 12:09:33 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-07-28 12:09:33 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-07-28 12:09:35 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-07-28 12:09:35 - [TEST_STEP][PASSED] - navigateToUrl("https://katalon-demo-cura.herokuapp.com/"): Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+2022-07-28 12:09:38 - [MESSAGE][PASSED] - Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+2022-07-28 12:09:38 - [TEST_STEP][PASSED] - click(findTestObject("btn_MakeAppointment")): Object: 'Object Repository/btn_MakeAppointment' is clicked on
+
+2022-07-28 12:09:39 - [MESSAGE][PASSED] - Object: 'Object Repository/btn_MakeAppointment' is clicked on
+
+2022-07-28 12:09:39 - [TEST_STEP][PASSED] - setText(findTestObject("txt_UserName"), Username): Text 'John Doe' is set on object 'Object Repository/txt_UserName'
+
+2022-07-28 12:09:40 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/txt_UserName'
+
+2022-07-28 12:09:40 - [TEST_STEP][PASSED] - setText(findTestObject("txt_Password"), Password): Text 'ThisIsNotAPassword' is set on object 'Object Repository/txt_Password'
+
+2022-07-28 12:09:41 - [MESSAGE][PASSED] - Text 'ThisIsNotAPassword' is set on object 'Object Repository/txt_Password'
+
+2022-07-28 12:09:41 - [TEST_STEP][PASSED] - click(findTestObject("btn_Login")): Object: 'Object Repository/btn_Login' is clicked on
+
+2022-07-28 12:09:42 - [MESSAGE][PASSED] - Object: 'Object Repository/btn_Login' is clicked on
+
+2022-07-28 12:09:42 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("div_Appointment"), 5): Object 'Object Repository/div_Appointment' is present
+
+2022-07-28 12:09:42 - [MESSAGE][PASSED] - Object 'Object Repository/div_Appointment' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_MakeAppointment" time="5.504" classname="Test Cases/TC_MakeAppointment" status="PASSED">
+         <system-out><![CDATA[2022-07-28 12:09:42 - [TEST_CASE][PASSED] - Test Cases/TC_MakeAppointment: Test Cases/TC_MakeAppointment
+
+2022-07-28 12:09:42 - [TEST_STEP][PASSED] - click(findTestObject("btn_facility")): Object: 'Object Repository/btn_facility' is clicked on
+
+2022-07-28 12:09:43 - [MESSAGE][PASSED] - Object: 'Object Repository/btn_facility' is clicked on
+
+2022-07-28 12:09:43 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("select_Tokyo CURA Healthcare Center        _5b4107"), "Seoul CURA Healthcare Center", true): All options with value 'Seoul CURA Healthcare Center' are selected in object 'Object Repository/select_Tokyo CURA Healthcare Center        _5b4107'  using regular expression
+
+2022-07-28 12:09:44 - [MESSAGE][PASSED] - All options with value 'Seoul CURA Healthcare Center' are selected in object 'Object Repository/select_Tokyo CURA Healthcare Center        _5b4107'  using regular expression
+
+2022-07-28 12:09:44 - [TEST_STEP][PASSED] - check(findTestObject("chk_Readmission")): Object 'Object Repository/chk_Readmission' is checked
+
+2022-07-28 12:09:44 - [MESSAGE][PASSED] - Object 'Object Repository/chk_Readmission' is checked
+
+2022-07-28 12:09:44 - [TEST_STEP][PASSED] - check(findTestObject("chk_Medicaid")): Object 'Object Repository/chk_Medicaid' is checked
+
+2022-07-28 12:09:44 - [MESSAGE][PASSED] - Object 'Object Repository/chk_Medicaid' is checked
+
+2022-07-28 12:09:44 - [TEST_STEP][PASSED] - setText(findTestObject("txt_VisitDate"), "28/07/2022"): Text '28/07/2022' is set on object 'Object Repository/txt_VisitDate'
+
+2022-07-28 12:09:45 - [MESSAGE][PASSED] - Text '28/07/2022' is set on object 'Object Repository/txt_VisitDate'
+
+2022-07-28 12:09:45 - [TEST_STEP][PASSED] - setText(findTestObject("txt_Comment"), "Saya (Nurul Dini Indriyani) sedang membuat automation make appointment with katalon ^_^"): Text 'Saya (Nurul Dini Indriyani) sedang membuat automation make appointment with katalon ^_^' is set on object 'Object Repository/txt_Comment'
+
+2022-07-28 12:09:46 - [MESSAGE][PASSED] - Text 'Saya (Nurul Dini Indriyani) sedang membuat automation make appointment with katalon ^_^' is set on object 'Object Repository/txt_Comment'
+
+2022-07-28 12:09:46 - [TEST_STEP][PASSED] - click(findTestObject("btn_BookAppointment")): Object: 'Object Repository/btn_BookAppointment' is clicked on
+
+2022-07-28 12:09:47 - [MESSAGE][PASSED] - Object: 'Object Repository/btn_BookAppointment' is clicked on
+
+2022-07-28 12:09:47 - [TEST_STEP][PASSED] - verifyTextPresent("Appointment Confirmation", false): Text 'Appointment Confirmation' is present on page 
+
+2022-07-28 12:09:47 - [MESSAGE][PASSED] - Text 'Appointment Confirmation' is present on page 
+
+2022-07-28 12:09:47 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-07-28 12:09:47 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\AVOWS\\git\\Test\\Reports\\20220728_120930\\Cura_Healthcare_Service\\20220728_120930\\1658984987805.png]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_Logout" time="2.069" classname="Test Cases/TC_Logout" status="PASSED">
+         <system-out><![CDATA[2022-07-28 12:09:47 - [TEST_CASE][PASSED] - Test Cases/TC_Logout: Test Cases/TC_Logout
+
+2022-07-28 12:09:48 - [TEST_STEP][PASSED] - click(findTestObject("sidebar")): Object: 'Object Repository/sidebar' is clicked on
+
+2022-07-28 12:09:48 - [MESSAGE][PASSED] - Object: 'Object Repository/sidebar' is clicked on
+
+2022-07-28 12:09:48 - [TEST_STEP][PASSED] - click(findTestObject("btn_logout")): Object: 'Object Repository/btn_logout' is clicked on
+
+2022-07-28 12:09:49 - [MESSAGE][PASSED] - Object: 'Object Repository/btn_logout' is clicked on
+
+2022-07-28 12:09:49 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("btn_MakeAppointment"), 5): Object 'Object Repository/btn_MakeAppointment' is present
+
+2022-07-28 12:09:49 - [MESSAGE][PASSED] - Object 'Object Repository/btn_MakeAppointment' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-07-28 12:09:32 - [TEST_SUITE][PASSED] - Cura_Healthcare_Service: Test Cases/TC_Logout]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
